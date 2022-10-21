@@ -3497,7 +3497,7 @@ input, select, textarea {
 
 			#banner .content header {
 				display: inline-block;
-				vertical-align: middle;
+				vertical-align: auto;
 			}
 
 				#banner .content header h2 {
@@ -3513,10 +3513,10 @@ input, select, textarea {
 			#banner .content .image {
 				/* border-radius: 100%; */
 				display: inline-block;
-				/* height: 18em; */
-				/* margin-left: 3em; */
-				/* vertical-align: top; */
-				/* width: 18em; */
+				height: 18em;
+				margin-left: 3em;
+				vertical-align: middle;
+				width: 18em;
 			}
 
 				#banner .content .image img {
